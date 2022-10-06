@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>FormUni</title>
+    <link rel="stylesheet" href="Css/style.css" />
+    <link rel="shortcut icon" href="Img/logotype.png" type="image/x-icon" />
+    <link href="https://css.gg/check-o.css" rel="stylesheet" />
+  </head>
+  <body>
+    <div id="card">
+      <aside>
+        <div id="items">
+          <a class="item" id="teste" href="#intro">
+            <span class="gg-check-o" style="background-color: #4f8ed8;"></span>
+            <h3>Introdução</h3>
+          </a>
+
+          <a class="item" href="#personal">
+            <span class="gg-check-o"></span>
+            <h3>Dados Pessoais</h3>
+          </a>
+
+          <a class="item" href="#adress">
+            <span class="gg-check-o"></span>
+            <h3>Endereço</h3>
+          </a>
+
+          <a class="item" href="#preferences">
+            <span class="gg-check-o"></span>
+            <h3>Preferências</h3>
+          </a>
+
+          <a class="item" href="#course">
+            <span class="gg-check-o"></span>
+            <h3>Curso</h3>
+          </a>
+
+          <a class="item" href="#opnion">
+            <span class="gg-check-o"></span>
+            <h3>Opnião</h3>
+          </a>
+        </div>
+      </aside>
+
+      <form>
+        <section id="intro">
+          <img
+            src="Img/ilustration1.png"
+            alt="ilustração identidade"
+            style="height: 180px; margin: 5vh"
+          />
+          <div>
+            <h1>Seja bem-vindo(a)</h1>
+            <br />
+            <p>Sua jornada em desenvolvimento web começa por aqui.</p>
+            <br />
+            <p>
+              Para concluir sua inscrição precisamos de algumas informações,
+              para melhorar sua experiência e para que possamos te conhecer
+              melhor
+            </p>
+            <br />
+            <p>Esteja confortável e responda este formulário com calma</p>
+            <br />
+            <a class="btn" href="#personal">Começar</a>
+          </div>
+        </section>
+
+        <section id="personal">
+          <h1>Dados Pessoais</h1>
+          <div>
+            <input type="text" id="name" class="tinpt" placeholder="Nome" />
+            <input
+              type="text"
+              id="lname"
+              class="tinpt"
+              placeholder="Sobrenome"
+            />
+            <input
+              type="date"
+              id="bdate"
+              class="tinpt"
+              placeholder="Data de nascimento"
+            />
+            <select name="sexo" class="tinpt">
+              <option value="" disabled selected hidden>Sexo</option>
+              <option value="masculino">Masculino</option>
+              <option value="feminino">Feminino</option>
+              <option value="outro">Outro</option>
+            </select>
+            <input type="email" id="mail" class="tinpt" placeholder="E-mail" />
+            <input
+              type="text"
+              id="insta"
+              class="tinpt"
+              placeholder="Instagram"
+            />
+            <input type="tel" id="tel" class="tinpt" placeholder="Telefone" />
+            <a class="btn nxt" href="#adress">Proximo</a>
+          </div>
+        </section>
+
+        <section id="adress">
+          <h1>Endereço</h1>
+          <div>
+            <input type="text" id="street" class="tinpt" placeholder="Rua" />
+            <input
+              type="text"
+              id="complement"
+              class="tinpt"
+              placeholder="Complemento"
+            />
+            <input
+              type="number"
+              id="number"
+              class="tinpt"
+              placeholder="Número"
+            />
+            <input
+              type="text"
+              id="district"
+              class="tinpt"
+              placeholder="Bairro"
+            />
+            <input type="text" id="city" class="tinpt" placeholder="Cidade" />
+            <input type="text" id="state" class="tinpt" placeholder="Estado" />
+            <a class="btn nxt" href="#preferences">Proximo</a>
+          </div>
+        </section>
+
+        <section id="preferences">
+          <h1>Preferências</h1>
+          <div>
+            <input type="checkbox" class="chk-btn" id="lol" />
+            <label class="prefer" for="lol">LOL</label>
+            <input type="checkbox" class="chk-btn" id="csgo" />
+            <label class="prefer" for="csgo">CS:GO</label>
+            <input type="checkbox" class="chk-btn" id="fallout" />
+            <label class="prefer" for="fallout">Fallout 3</label>
+            <input type="checkbox" class="chk-btn" id="supernatural" />
+            <label class="prefer" for="supernatural">Supernatural</label>
+            <input type="checkbox" class="chk-btn" id="mario" />
+            <label class="prefer" for="mario">Super Mario</label>
+            <input type="checkbox" class="chk-btn" id="dota" />
+            <label class="prefer" for="dota">Dota 2</label>
+            <input type="checkbox" class="chk-btn" id="bridge" />
+            <label class="prefer" for="bridge">Bridgerton</label>
+            <input type="checkbox" class="chk-btn" id="sherlock" />
+            <label class="prefer" for="sherlock">Sherlock</label>
+            <input type="checkbox" class="chk-btn" id="valorant" />
+            <label class="prefer" for="valorant">Valorant</label>
+            <input type="checkbox" class="chk-btn" id="streetf" />
+            <label class="prefer" for="streetf">Street Fighter</label>
+            <input type="checkbox" class="chk-btn" id="cient" />
+            <label class="prefer" for="cient">Ciência</label>
+            <input type="checkbox" class="chk-btn" id="dexter" />
+            <label class="prefer" for="dexter">Dexter</label>
+            <input type="checkbox" class="chk-btn" id="tech" />
+            <label class="prefer" for="tech">Tecnologia</label>
+            <input type="checkbox" class="chk-btn" id="tur" />
+            <label class="prefer" for="tur">Turismo</label>
+            <input type="checkbox" class="chk-btn" id="ambient" />
+            <label class="prefer" for="ambient">Ambiente</label>
+            <input type="checkbox" class="chk-btn" id="economia" />
+            <label class="prefer" for="economia">Economia</label>
+            <input type="checkbox" class="chk-btn" id="education" />
+            <label class="prefer" for="education">Educação</label>
+            <input type="checkbox" class="chk-btn" id="breakingb" />
+            <label class="prefer" for="breakingb">Breaking Bad</label>
+            <input type="checkbox" class="chk-btn" id="politic" />
+            <label class="prefer" for="politic">Politica</label>
+            <input type="checkbox" class="chk-btn" id="ben" />
+            <label class="prefer" for="ben">Ben 10</label>
+
+            <a class="btn nxt" href="#course">Proximo</a>
+          </div>
+        </section>
+
+        <section id="course">
+          <h1>Curso</h1>
+          <div>
+            <input
+              type="text"
+              id="coursename"
+              class="tinpt"
+              placeholder="Curso"
+            />
+            <input
+              type="number"
+              id="period"
+              class="tinpt"
+              placeholder="Periodo"
+            />
+            <select class="tinpt">
+              <option value="" disabled selected hidden>Turno</option>
+              <option value="matutino">Matutino</option>
+              <option value="vespertino">Vespertino</option>
+              <option value="noturno">Noturno</option>
+              <option value="integral">Integral</option>
+            </select>
+            <select class="tinpt" >
+              <option value="" disabled selected hidden>Titulação</option>
+              <option value="bacharelado">Bacharelado</option>
+              <option value="licenciatura">Licenciatura</option>
+              <option value="tecnologo">Tecnólogo</option>
+              <option value="especializacao">Especialização</option>
+              <option value="mba">MBA</option>
+              <option value="mestrado">Mestrado</option>
+              <option value="doutorado">Doutorado</option>
+              <option value="posdoutorado">Pós-doutorado</option>
+            </select>
+            <input type="text" id="campus" class="tinpt" placeholder="Campus" />
+            <a class="btn nxt" href="#opnion">Proximo</a>
+          </div>
+        </section>
+
+        <section id="opnion">
+          <h1>Opnião</h1>
+          <div>
+            <textarea
+              id="opnbox"
+              cols="30"
+              rows="10"
+              placeholder="Utilize este campo para nos deixar uma critica, uma ideia ou uma sugestão que possa melhorar sua expêriencia ou de outros usuário que estão vindo!"
+              ></textarea>
+            <a class="btn nxt" href="#concluded">Concluir</a>
+          </div>
+        </section>
+
+        <section id="concluded">
+          <img src="Img/logo.png" alt="logo uniacademia " />
+          <div>
+            <span
+              style="display: flex; flex-direction: column; align-items: center"
+            >
+              <h1>Formulário concluido!</h1>
+              <h2>
+                Muito obrigado por concluir seu cadastro e compartilhar algumas
+                preferências.
+              </h2>
+            </span>
+            <img
+              style="height: 15vh"
+              src="Img/final.png"
+              alt="icone 'concluido' "
+            />
+          </div>
+        </section>
+      </form>
+    </div>
+  </body>
+</html>

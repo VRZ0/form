@@ -1,0 +1,42 @@
+h1{
+    font-size: xx-large;
+    color: #4D4D4D;
+}
+
+h2{
+    font-size: large;
+    font-weight: lighter;
+    text-align: center;
+    color: #4D4D4D;
+}
+
+h3{
+    font-size: 20px;
+    font-weight: 400;
+}
+
+h4{
+    font-weight: 400;
+}
+
+p{
+    font-size: small;
+    font-weight: 100;
+    color: #4D4D4D;
+}
+
+a{
+    text-decoration: none;
+}
+
+option{
+    color: #4D4D4D;
+}
+
+select{
+    color: #000000
+}
+
+select:invalid{
+    color: #5f5f5f;
+}
